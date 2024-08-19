@@ -75,7 +75,7 @@ Previous_week_Reveneue = CALCULATE(
 
 ## Screenshots
 ### Dashboard Overview
-![Dashboard Overview](Assets/Images/Credit_Card_Report - Customer.jpg)
+![Dashboard Overview](https://github.com/ed53dbaf-12ec-49e6-adc4-3a7825b96f56)
 
 ### Transaction Analysis
 ![Transaction Analysis](Assets/Images/Credit_Card_Report - Transaction.jpg)
