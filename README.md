@@ -75,13 +75,13 @@ Previous_week_Reveneue = CALCULATE(
 
 ## Screenshots
 ### Dashboard Overview
-![Dashboard Overview](Credit_Card_Financial_Dashboard/Assets/Images/Credit_Card_Report - Customer.jpg)
+![Dashboard Overview](Assets/Images/Credit_Card_Report - Customer.jpg)
 
 ### Transaction Analysis
 ![Transaction Analysis](Assets/Images/Credit_Card_Report - Transaction.jpg)
 
 ## Download
-[Download the Power BI report](Credit_Card_Financial_Dashboard/Assets/Report/Credit_Card_Report.pbix)
+[Download the Power BI report](Assets/Report/Credit_Card_Report.pbix)
 
 ## Contact
 For any questions or further information, please contact [Muskan Manwani](mailto:mmanwani@uoguelph.ca).
