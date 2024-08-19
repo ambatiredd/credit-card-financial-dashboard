@@ -75,10 +75,10 @@ Previous_week_Reveneue = CALCULATE(
 
 ## Screenshots
 ### Dashboard Overview
-![Dashboard Overview](https://github.com/ed53dbaf-12ec-49e6-adc4-3a7825b96f56)
+![Dashboard Overview](https://github.com/Muskan-guelph/Credit_Card_Financial_Dashboard/blob/main/Assets/Images/Credit_Card_Report%20-%20Customer.jpg?raw=true)
 
 ### Transaction Analysis
-![Transaction Analysis](Assets/Images/Credit_Card_Report - Transaction.jpg)
+![Transaction Analysis](https://github.com/Muskan-guelph/Credit_Card_Financial_Dashboard/blob/main/Assets/Images/Credit_Card_Report%20-%20Transaction.jpg?raw=true)
 
 ## Download
 [Download the Power BI report](Assets/Report/Credit_Card_Report.pbix)
