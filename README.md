@@ -68,10 +68,6 @@ Previous_week_Reveneue = CALCULATE(
   - Overall Delinquent rate is 6.06%
 ## Screenshots
 ### Dashboard Overview
-![Dashboard Overview](https://github.com/Muskan-guelph/Credit_Card_Financial_Dashboard/blob/main/Assets/Images/Credit_Card_Report%20-%20Customer.jpg?raw=true)
+![Dashboard Overview](https://github.com/ambatiredd/credit-card-financial-dashboard/blob/main/Assets/Images/Credit_Card_Report%20-%20Customer.jpg?raw=true)
 ### Transaction Analysis
-![Transaction Analysis](https://github.com/Muskan-guelph/Credit_Card_Financial_Dashboard/blob/main/Assets/Images/Credit_Card_Report%20-%20Transaction.jpg?raw=true)
-## Download
-[Download the Power BI report](Assets/Report/Credit_Card_Report.pbix)
-## Contact
-For any questions or further information, please contact [Muskan Manwani](mailto:mmanwani@uoguelph.ca).
+![Transaction Analysis](https://github.com/ambatiredd/credit-card-financial-dashboard/blob/main/Assets/Images/Credit_Card_Report%20-%20Transaction.jpg?raw=true)
