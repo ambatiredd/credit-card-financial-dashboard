@@ -1,27 +1,21 @@
 # Credit Card Financial Dashboard
 
 ## Overview
-<p>This Power BI dashboard provides real-time insights into credit card transactions and customer data. It helps monitor key performance metrics and trends, supporting decision-making processes.</p>
+This Power BI dashboard provides real-time insights into credit card transactions and customer data. It helps monitor key performance metrics and trends, supporting decision-making processes.
 
 ## Features
-<ul>
-  <li><strong>Interactive Dashboard:</strong> Developed using Power BI to visualize transaction and customer data.</li>
-  <li><strong>Data Processing & Analysis:</strong> Streamlined processes to ensure accurate and efficient data handling.</li>
-  <li><strong>Actionable Insights:</strong> Provided stakeholders with insights to support decision-making processes.</li>
-</ul>
+- **Interactive Dashboard:** Developed using Power BI to visualize transaction and customer data.
+- **Data Processing & Analysis:** Streamlined processes to ensure accurate and efficient data handling.
+- **Actionable Insights:** Provided stakeholders with insights to support decision-making processes.
 
 ## Data Sources
-<ul>
-  <li>SQL database containing transaction and customer data.</li>
-</ul>
+- SQL database containing transaction and customer data.
 
 ## Key Metrics
-<ul>
-  <li>Total Transactions</li>
-  <li>Customer Demographics</li>
-  <li>Spending Trends</li>
-  <li>Credit Card Utilization</li>
-</ul>
+- Total Transactions
+- Customer Demographics
+- Spending Trends
+- Credit Card Utilization
 
 ## DAX Queries
 ```sql
@@ -34,7 +28,6 @@ AgeGroup = SWITCH(
     'public cust_detail'[customer_age] >= 60, "60+",
     "unknown"
 )
-
 IncomeGroup = SWITCH(
     TRUE(),
     'public cust_detail'[income] < 35000, "Low",
@@ -42,11 +35,8 @@ IncomeGroup = SWITCH(
     'public cust_detail'[income] >= 70000, "High",
     "unknown"
 )
-
 week_num2 = WEEKNUM('public cc_detail'[week_start_date])
-
 Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]
-
 Current_week_Reveneue = CALCULATE(
     SUM('public cc_detail'[Revenue]),
     FILTER(
@@ -54,7 +44,6 @@ Current_week_Reveneue = CALCULATE(
         'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])
     )
 )
-
 Previous_week_Reveneue = CALCULATE(
     SUM('public cc_detail'[Revenue]),
     FILTER(
@@ -63,7 +52,6 @@ Previous_week_Reveneue = CALCULATE(
     )
 )
 ```
-
 ## Project Insights
 - **WoW change:**
   - Revenue increased by 28.8%
@@ -78,16 +66,12 @@ Previous_week_Reveneue = CALCULATE(
   - TX, NY & CA contributing to 68%
   - Overall Activation rate is 57.5%
   - Overall Delinquent rate is 6.06%
-
 ## Screenshots
 ### Dashboard Overview
 ![Dashboard Overview](https://github.com/Muskan-guelph/Credit_Card_Financial_Dashboard/blob/main/Assets/Images/Credit_Card_Report%20-%20Customer.jpg?raw=true)
-
 ### Transaction Analysis
 ![Transaction Analysis](https://github.com/Muskan-guelph/Credit_Card_Financial_Dashboard/blob/main/Assets/Images/Credit_Card_Report%20-%20Transaction.jpg?raw=true)
-
 ## Download
 [Download the Power BI report](Assets/Report/Credit_Card_Report.pbix)
-
 ## Contact
 For any questions or further information, please contact [Muskan Manwani](mailto:mmanwani@uoguelph.ca).
